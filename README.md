@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://harryt1002.github.io/Lab2_Starter/
+https://harryt1002.github.io/fa22-cse110-lab3/
