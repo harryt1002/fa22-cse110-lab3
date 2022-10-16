@@ -18,6 +18,7 @@
     border-right-style: solid;
     border-right-color:cornflowerblue;
     margin: auto;
+    text-align: center;
 }
 
 h1 {
@@ -38,6 +39,7 @@ h3 {
 .att {
     background-color:aqua;
     width: 15pc;
+    text-decoration: underline;
 }
 
 .pic {
