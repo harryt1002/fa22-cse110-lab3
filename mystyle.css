@@ -1,11 +1,12 @@
-body {
-    background-color:aquamarine;
+.box {
+    background-color:rgb(253, 255, 127);
 }
 
 h1 {
-    color:blue;
+    color:hsl(240, 100%, 50%);
 }
 
 h2 {
-    color:crimson;
+    background-color:#FDFF7F;
+    color:hsl(0, 100%, 50%);
 }
