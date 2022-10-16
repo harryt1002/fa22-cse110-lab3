@@ -19,6 +19,7 @@
     border-right-color:cornflowerblue;
     margin: auto;
     text-align: center;
+    
 }
 
 h1 {
@@ -30,6 +31,7 @@ h2 {
     color:hsl(0, 100%, 50%);
     width: 29vw;
     height: 7vmax;
+    display: inline;
 }
 
 h3 {
@@ -40,6 +42,7 @@ h3 {
     background-color:aqua;
     width: 15pc;
     text-decoration: underline;
+    display: block;
 }
 
 .pic {
