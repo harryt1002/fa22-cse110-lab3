@@ -1,5 +1,6 @@
 .box {
     background-color:rgb(253, 255, 127);
+    width: 300pt;
 }
 
 h1 {
@@ -9,4 +10,19 @@ h1 {
 h2 {
     background-color:#FDFF7F;
     color:hsl(0, 100%, 50%);
+    width: 30vw;
+    height: 3.25vh;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.att {
+    background-color:aqua;
+    width: 15pc;
+}
+
+main {
+    font-size: 1.1em;
 }
