@@ -1,3 +1,5 @@
+/*Adding external font to the html*/
+
 @font-face {
     font-family: "myFont";
     src: url(Silkscreen-Regular.ttf);
@@ -7,6 +9,8 @@
     font-family: myFont;
 }
 
+/*Creating the box for the title*/
+/*Includes color, borders, margins, tex alignment, and positioning*/
 .box {
     background-color:#FDFF7F;
     max-width: 300pt;
@@ -32,6 +36,7 @@
     position: static; 
 }
 
+/*Grid for the student roles*/
 .grid {
     display: grid;
     grid-template-columns: auto auto;
@@ -47,6 +52,7 @@
     font-size: 20px;
 }
 
+/*Flexbox for meeting links*/
 .flex {
     display: flex;
     background-color:#FDFF7F;
@@ -66,6 +72,8 @@
     padding-right: 4px;
 }
 
+/*Types of CSS Selectors*/
+/*Used CSS Selectors for styling the boxes, color, text decoraction, alignment, and font color or the subtitles*/
 h1, h2 {
     color:hsl(240, 100%, 50%);
 }
@@ -152,14 +160,18 @@ button:active{
     box-shadow: 2px 2px 5px #4dd3fc;
 }
 
+/*Changing font size for the main portion of the website*/
 main {
     font-size: 1.1em;
 }
 
+/*Website background color*/
 body {
     background-color: rgb(90, 162, 230);
 }
 
+/*Testing out media query*/
+/*If site shrinks to a certain size, the background color turns white*/
 @media screen and (max-width: 600px) {
     body {
       background-color: rgb(255, 255, 255);
