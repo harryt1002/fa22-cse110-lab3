@@ -1,6 +1,16 @@
+@font-face {
+    font-family: "myFont";
+    src: url(Silkscreen-Regular.ttf);
+}
+
+* {
+    font-family: myFont;
+}
+
 .box {
-    background-color:rgb(253, 255, 127);
-    width: 300pt;
+    background-color:#FDFF7F;
+    max-width: 300pt;
+    min-width: 200pt;
     border-top-width: 4px;
     border-top-style: solid;
     border-top-color:cornflowerblue;
@@ -19,30 +29,93 @@
     border-right-color:cornflowerblue;
     margin: auto;
     text-align: center;
-    
+    position: static; 
 }
 
-h1 {
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+    background-color:black;
+    padding: 2px;
+}
+
+.grid > div {
+    background-color:#ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    background-color:#FDFF7F;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 600px;
+    justify-content: center;
+}
+
+.flex>div {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    padding-right: 4px;
+}
+
+h1, h2 {
     color:hsl(240, 100%, 50%);
 }
 
-h2 {
+div > h2 {
     background-color:#FDFF7F;
-    color:hsl(0, 100%, 50%);
     width: 29vw;
     height: 7vmax;
     display: inline;
+}
+
+div ~ h2 {
+    background-color:#FDFF7F;
+    width: 29vw;
+    height: 7vmax;
+    display: inline;
+}
+
+div + h5 {
+    text-decoration: underline overline;
+}
+
+p.bold {
+    font-weight: bold;
 }
 
 h3 {
     margin-left: 20px;
 }
 
-.att {
-    background-color:aqua;
+a[target=_link] {
+    background-color:#FDFF7F;
+}
+
+#meet {
+    background-color:#FDFF7F;
+    width: 29vw;
+    height: 7vmax;
+    display: inline;
+}
+
+#att {
+    background-color:#FDFF7F;
     width: 15pc;
     text-decoration: underline;
     display: block;
+}
+
+.grid div {
+    font-weight: bold;
 }
 
 .pic {
@@ -52,6 +125,7 @@ h3 {
     padding-bottom: 5px;
     padding-left: 93px;
     padding-right: 90px;
+    position: relative;
 }
 
 .rt {
@@ -69,6 +143,25 @@ h3 {
     margin: 20px 20px 20px 20px;
 }
 
+button:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: 2px 2px 5px #4dd3fc;
+}
+
 main {
     font-size: 1.1em;
 }
+
+body {
+    background-color: rgb(90, 162, 230);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  }

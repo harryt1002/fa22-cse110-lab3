@@ -16,39 +16,44 @@
         </div>
         
     </header>
+    
     <section>
+        <div id="meet">
         <h2>Meeting Links</h2>
+        </div>
         <details>
             <summary>Links Below</summary>
             Links for the meeting notes:
             <nav>
-                <ul>
-                    <li><a href="#attendance">Attendance</a></li>
-                    <li><a href="#agenda">Agenda</a></li>
-                    <li><a href="#group_bonding_activity">Group Bonding Activity</a></li>
-                    <li><a href="#role_delegation">Role Delegation</a></li>
-                    <li><a href="#individual_brainstorm">Individual Brainstorm</a></li>
-                    <li><a href="#group_brainstorm">Group Brainstorm</a></li>
-                    <li><a href="#upcoming_group_homework_assignments">Upcoming Group Homework Assignments</a></li>
-                    <li><a href="#future_group_bonding_activities">Future Group Bonding Activities</a></li>
-                    <li><a href="#future_group_bonding_activities">Future Group Bonding Activities</a></li>
-                    <li><a href="#important_meeting_images">Important Meeting Images</a></li>
-                    <li><a href="#questions_comments_concerns">Questions, Comments, and Concerns</a></li>
-                </ul>
+                <div class="flex">
+                    <div><li><a href="#attendance">Attendance</a></li></div>
+                    <div><li><a href="#agenda">Agenda</a></li></div>
+                    <div><li><a href="#group_bonding_activity">Group Bonding Activity</a></li></div>
+                    <div><li><a href="#role_delegation">Role Delegation</a></li></div>
+                    <div><li><a href="#individual_brainstorm">Individual Brainstorm</a></li></div>
+                    <div><li><a href="#group_brainstorm">Group Brainstorm</a></li></div>
+                    <div><li><a href="#upcoming_group_homework_assignments">Upcoming Group Homework Assignments</a></li></div>
+                    <div><li><a href="#future_group_bonding_activities">Future Group Bonding Activities</a></li></div>
+                    <div><li><a href="#future_group_bonding_activities">Future Group Bonding Activities</a></li></div>
+                    <div><li><a href="#important_meeting_images">Important Meeting Images</a></li></div>
+                    <div><li><a href="#questions_comments_concerns">Questions, Comments, and Concerns</a></li></div>
+                </div>
             </nav>
         </details>
     </section>
-
+    <br>
     <main>
+        <div>
         <h2>Attendance</h2>
-        <div class="att">
+        <div id="att">
         <p><strong>Please fill out the attendance.</strong></p>
         </div>
         <form onsubmit="alert('Attendance Recorded')">
             <input type="text" placeholder="Enter Student Email Address" >
             <button>Submit</button>
         </form>
-        
+        <br>
+        </div>
         <h2>Agenda</h2>
             <ol>
                 <li>Group Bonding Activity</li>
@@ -66,12 +71,37 @@
             </ul>
             
         <hr >
-        <h2>Group Bounding Activity</h2>
+        <h2>Group Bonding Activity</h2>
         <p>During our meeting we took the time to get to know a little about each other by participating in group bonding activities. We all shared our year and major as well as games that we enjoy playing on our spare time. We then played the browser game <i>Skribbl.io</i> that allowed us to share our creative and fun side.</p>
 
         <h2>Role Delegation</h2>
         <p>The Team Leaders presented the rest of the group with their assigned roles for the project.</p>
+        <div class="grid">
+            <div>Student 1</div>
+            <div>role</div>
+            <div>Student 2</div>
+            <div>role</div>
+            <div>Student 3</div>
+            <div>role</div>
+            <div>Student 4</div>
+            <div>role</div>
+            <div>Student 5</div>
+            <div>role</div>
+            <div>Student 6</div>
+            <div>role</div>
+            <div>Student 7</div>
+            <div>role</div>
+            <div>Student 8</div>
+            <div>role</div>
+            <div>Student 9</div>
+            <div>role</div>
+            <div>Student 10</div>
+            <div>role</div>
+        </div>
 
+        <br>
+
+        <div>
         <h2>Indivdual Brainstorm</h2>
         <p>The group briefly discussed what ideal projects we would like to create if there were no restrictions in place. This brainstorming activity allowed each memeber to show their areas of interests when it comes to making a SWE based project.</p>
 
@@ -79,7 +109,7 @@
         <p>Following our individual brainstorming session, the group was unable to discuss and brainstorm an idea that we all enjoyed and agreed upon due to time restrictions. We can continue this point of discussion as the first item on the agenda for the next group meeting.</p>
 
         <h2>Upcoming Group Homework Assignments</h2>
-        <p>On Canvas, it is to note that the group will have an assignment that covers a group kickoff meeting and the intialization of a group GitHub repo. Some things to dicuss are <span><b>defining roles</b></span>, <span><b>making rules for development</b></span>, <span><b>developing team contracts</b></span>, and <span><b>creating the team GitHub repo</b></span>.</p>
+        <p>On Canvas, it is to note that the group will have an assignment that covers a group kickoff meeting and the intialization of a group GitHub repo. Some things to dicuss are: <p class="bold">defining roles, making rules for development, developing team contracts, and creating the team GitHub repo.</p></p>
         
         <h2>Future Group Bonding Activities</h2>
         <p>While project details and guidelines are still being announced, we <em>should</em> take the time to get to know each other better via group extracurricular activities. For the team to trust each other and maximize efficiency, we should be comfortable working alongside each other without this sense of awkwardness. For our next group meeting, we should discuss other group bonding acitivies we can partake in to continue strengthening our bond as a team.</p>
@@ -98,6 +128,7 @@
             <input type="text" placeholder="Enter Question/Comment/Concern" >
             <button>Submit</button>
         </form>
+        </div>
 
         <hr >
         <div class="rt">
@@ -145,6 +176,8 @@
             <option value="hybrid">Hybrid</option>
         </select>
 
+        <br>
+
         <div class="misc"><h2>Miscellaneous</h2>
         </div>
         <h5>Here is a video clip of me playing my game</h5>
@@ -160,6 +193,9 @@
             <source src="./test_audio.mp3" type="audio/mpeg">
         </audio>
         </div>
+
+        <h5>Here is a link to the CSS refernce page</h5>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_link">CSSReference.com</a>
 
 
     </main>
