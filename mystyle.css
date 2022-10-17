@@ -24,6 +24,21 @@
     
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+    background-color:black;
+    padding: 2px;
+}
+
+.grid > div {
+    background-color:#ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
 .flex {
     display: flex;
     background-color:#FDFF7F;
